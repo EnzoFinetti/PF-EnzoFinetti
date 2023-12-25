@@ -1,0 +1,29 @@
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: #704214;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $color-font;
+
+    h1 {
+    font-size: 40px;
+    margin: 0 0 20px;        
+    }
+
+    p {
+    margin: 0 0 10px;
+    }
+
+    div {
+    background-color: rgba(199, 135, 61, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;   
+    }
+    
+    h4 {
+        color: $color-dorado ;         
+    }
+}

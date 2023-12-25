@@ -1,0 +1,147 @@
+main {
+    background-color: $color-fondo;
+    padding: 20px;
+    width: 100%;
+
+    article {
+        color: #000000 ;
+        
+        .slider {
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+
+                &:hover {
+                    cursor: crosshair;
+                    width: 300px;
+                    opacity: 1;
+                    filter: contrast(120%);
+                    
+                }
+            }
+          
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-size: 32px;
+            text-align: center;
+            font-family: $fuente-artic;
+            text-decoration: underline;
+            color: #000000;
+        }
+
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 19x;
+            line-height: 27px;
+            font-family: $fuente-artic;
+        }
+
+        li {
+            margin-bottom: 20px;
+            font-size: 19x;
+            line-height: 27px;
+            font-family: $fuente-artic;
+        }
+
+     
+    }
+
+    section {
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            color: aqua;
+            font-size: 3rem;
+        }     
+
+    }
+
+
+    h1 {
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: center;
+        text-decoration: none;
+        color: $color-font;       
+    }
+    .box {
+        width: 500px;
+        background: rgba(0, 0, 0, .4);
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 4%;
+        color: white;
+        font-family: 'Century Gothic', sans-serif;
+        border-radius: 15px;
+        
+      }
+      
+      .box-img {
+        border-radius: 50%;
+      }
+      
+      .box h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        margin: 30px 0 20px;
+      }
+      
+      .box h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 100;
+        margin-bottom: 30px
+      }
+
+      .pensamientos {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .gradiante {
+        background-image: linear-gradient(brown, rgb(224, 160, 64));
+        text-align: center;
+    }
+      
+}
+
+@keyframes to-violet {
+    0% {
+        background: aqua;
+    }
+
+    50% {
+        background: violet;
+    }
+
+    100% {
+        background: aqua;
+    }
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+}

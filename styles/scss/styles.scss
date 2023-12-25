@@ -1,0 +1,81 @@
+@import "./variables";
+@import "./common";
+@import "./header";
+@import "./navbar";
+@import "./aside";
+@import "./content";
+@import "./footer";
+@import "./main";
+
+
+@media screen and (max-width: 576px) {
+
+    .main2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        background-color: $color-mobile;
+
+        main {
+            background-color: $color-mobile;
+        }
+
+        .navbar {
+            flex-direction: column;
+            background-color: rgb(138, 82, 138);
+
+            a {
+                color: rgb(0, 255, 242);
+            }
+        }
+
+        .row {
+
+            aside {
+                flex-direction: column;
+                background-color: $color-mobile;
+            }
+        }
+        .main {
+            background-color: $color-mobile;
+
+            .read-more {
+                background-color: rgba(10, 196, 221, 0.781);
+            }
+
+            .read-more:hover {
+                background-color: rosybrown;
+            }
+        }
+        .cuadro {
+            background-color: $color-mobile;
+        }
+        footer {
+            background-color: rgba(0, 255, 234, 0.733);
+        }
+        header {
+            background-color: $color-mobile;
+
+            h4, h1, p {
+                color: rgb(8, 255, 243);
+
+            }
+            div {
+                background-color: rgba(250, 85, 209, 0.4);
+            }
+        }
+        .gradiante {  
+            background-image: linear-gradient(rgb(42, 151, 165), rgb(152, 64, 224));
+            text-align: center;
+        }
+
+        .circle {
+            background-color: $color-mobile;
+        }
+        .animate__animated {
+            background-color: $color-mobile;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #643c23;
+
+    a {
+        color: $color-font;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    a &hover {
+        background-color: $primary-color-dark;
+    }
+}
